@@ -345,7 +345,7 @@ body {
         background: url(../images/swirl3.jpg); /* Replace with your "owa" section background image */
         background-size: cover;
         background-repeat: no-repeat;
-        background-attachment: fixed;
+        background-attachment: center fixed !important;
         background-position: center;
         z-index: 100;
         overflow: hidden;
@@ -409,7 +409,7 @@ body {
         background: url(../images/swirl3.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        background-attachment: fixed;
+        background-attachment: center fixed !important;
         background-position: center;
         z-index: 100;
         overflow: hidden;
@@ -437,7 +437,7 @@ body {
         background: url(../images/swirl3.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        background-attachment: fixed;
+        background-attachment: center fixed !important;
         background-position: center;
         z-index: 100;
         overflow: hidden;
@@ -452,7 +452,7 @@ body {
         background: url(../images/swirl3.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        background-attachment: fixed;
+        background-attachment: center fixed !important;
         background-position: center;
         z-index: 100;
         overflow: hidden;
@@ -501,7 +501,7 @@ body {
         background: url(../images/swirl3.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        background-attachment: fixed;
+        background-attachment: center fixed !important;
         background-position: center;
         z-index: 100;
         overflow: hidden;
@@ -531,7 +531,7 @@ body {
         background: url(../images/swirl3.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        background-attachment: fixed;
+        background-attachment: center fixed !important;
         background-position: center;
         z-index: 100;
         overflow: hidden;
@@ -559,7 +559,7 @@ body {
         background: url(../images/swirl3.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        background-attachment: fixed;
+        background-attachment: center fixed !important;
         background-position: center;
         z-index: 100;
         overflow: hidden;
@@ -672,7 +672,7 @@ body {
         background: url(../images/swirl3.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        background-attachment: fixed;
+        background-attachment: center fixed !important;
         background-position: center;
         z-index: 100;
         overflow: hidden;
@@ -705,7 +705,7 @@ body {
         background: url(../images/swirl3.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        background-attachment: fixed;
+        background-attachment: center fixed !important;
         background-position: center;
         z-index: 100;
         overflow: hidden;
@@ -755,7 +755,7 @@ body {
         background: url(../images/swirl3.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        background-attachment: fixed;
+        background-attachment: center fixed !important;
         background-position: center;
         z-index: 100;
         overflow: hidden;
@@ -789,7 +789,7 @@ body {
         background: url(../images/swirl3.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        background-attachment: fixed;
+        background-attachment: center fixed !important;
         background-position: center;
         z-index: 100;
         overflow: hidden;
@@ -816,7 +816,7 @@ body {
         background: url(../images/swirl3.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        background-attachment: fixed;
+        background-attachment: center fixed !important;
         background-position: center;
         z-index: 100;
         overflow: hidden;
@@ -921,7 +921,7 @@ body {
         background: url(../images/swirl3.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        background-attachment: fixed;
+        background-attachment: center fixed !important;
         background-position: center;
         z-index: 100;
         overflow: hidden;
@@ -963,7 +963,7 @@ body {
         background: url(../images/swirl3.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        background-attachment: fixed;
+        background-attachment: center fixed !important;
         background-position: center;
         z-index: 100;
         overflow: hidden;
@@ -987,7 +987,7 @@ body {
         background: url(../images/swirl3.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        background-attachment: fixed;
+        background-attachment: center fixed !important;
         background-position: center;
         z-index: 100;
         overflow: hidden;
@@ -1006,7 +1006,7 @@ body {
         background: url(../images/swirl3.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        background-attachment: fixed;
+        background-attachment: center fixed !important;
         background-position: center;
         z-index: 100;
         overflow: hidden;
@@ -1024,7 +1024,7 @@ body {
         background: url(../images/swirl3.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        background-attachment: fixed;
+        background-attachment: center fixed !important;
         background-position: center;
         z-index: 100;
         overflow: hidden;
@@ -1058,7 +1058,7 @@ body {
         background: url(../images/swirl3.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        background-attachment: fixed;
+        background-attachment: center fixed !important;
         background-position: center;
         z-index: 100;
         overflow: hidden;
@@ -1089,7 +1089,7 @@ body {
         background: url(../images/swirl3.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        background-attachment: fixed;
+        background-attachment: center fixed !important;
         background-position: center;
         z-index: 100;
         overflow: hidden;
@@ -1135,7 +1135,7 @@ body {
         background: url(../images/swirl3.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        background-attachment: fixed;
+        background-attachment: center fixed !important;
         background-position: center;
         z-index: 100;
         overflow: hidden;

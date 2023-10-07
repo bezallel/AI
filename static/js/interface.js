@@ -206,3 +206,14 @@ textInput.addEventListener("keydown", function (event) {
         goToQuizSection();
     }
 });
+
+// Function to reposition the button after the "owa" section slides back
+function repositionButton() {
+    var owaButton = document.querySelector('.owa-powers-btn');
+    owaButton.style.top = '40%'; // Adjust the top position as needed
+    owaButton.style.left = '38%'; // Adjust the left position as needed
+}
+
+// Add an event listener to reposition the button when the "owa" section slides back
+document.querySelector('.owa').addEventListener('transitionend', repositionButton);
+

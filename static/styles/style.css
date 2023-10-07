@@ -1,27 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
-} */
-
-
-/* .container {
-    max-width: 400px;
-    margin: 20%;
-    margin-right: -0%;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-}
-
-
-
-
 /* CSS for the "owa" section */
 .owa {
     position: fixed;

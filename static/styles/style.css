@@ -807,6 +807,11 @@
 }
 @media only screen and (min-width: 375px) and (max-width: 375px) {
     .owa-powers-btn {
+        -webkit-top: 40%;
+        -moz-top: 36%;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
         color: black;
         height: 70px !important;
         width: 70px !important;
@@ -1122,64 +1127,3 @@
         right: calc(32% + 10px); 
     }
 }
-@media not all and (min-resolution:.001dpcm) { 
-    @supports (-webkit-appearance:none) {
-        @media only screen and (min-width: 375px) and (max-width: 375px) {
-            .owa-powers-btn {
-                color: black;
-                height: 70px !important;
-                width: 70px !important;
-                top: 40%;
-                left: 36%; 
-            }
-            
-            .owa-powers-btn .bx.bx-power-off {
-                font-size: 30px;
-                font-weight: 100;
-                color: black; 
-            
-            }
-            .owa {
-                background: url(../images/swirl3.jpg);
-                background-size: cover;
-                background-repeat: no-repeat;
-                background-attachment: fixed;
-                background-position: center;
-                z-index: 100;
-                overflow: hidden;
-            }
-            .chat-container {
-                display: flex;
-                flex-direction: column;
-                justify-content: center; 
-                align-items: center; /* Align content horizontally in the middle */
-                border-radius: 10px;
-                margin-top: 120px;
-                height: 60vh; 
-                width: 130%;
-            }
-            .chat-content{
-                width: 64%;
-                margin-right: 59%;
-                max-height: 310px;
-                margin-top: -10px;
-            }
-            
-            #textInput {
-                margin-top: 20px;
-            }
-            #textInput:hover,
-            #textInput:focus {
-            transform: scale(1.01);
-            background: rgba(67, 66, 66, 0.2);
-            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(51, 51, 51, 0.2);
-        }
-        
-            /* .navi .navi-button {
-                position: fixed;
-                top: 83%; 
-                right: -3%; 
-            } */
-        }
-    }
-  }

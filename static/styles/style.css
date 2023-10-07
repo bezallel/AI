@@ -64,6 +64,7 @@ body {
 }
 
 .owa-powers-btn {
+    position: fixed;
     color: black;
     background-image: linear-gradient(to left, #45092d 0%, #070111 100%);    
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2), inset 0 -6px 10px rgba(0, 0, 0, 0.2);

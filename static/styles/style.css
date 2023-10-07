@@ -846,8 +846,17 @@ body {
         font-size: 30px;
         font-weight: 100;
         color: black; 
-    
     }
+    .owa.active {
+    transform: translateX(100%); /* Slide the "owa" section away to reveal the chat area */
+}
+
+.owa-lock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
     .owa {
         background: url(../images/swirl3.jpg);
         background-size: cover;

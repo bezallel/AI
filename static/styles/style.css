@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 
-/* body {
+body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -17,7 +17,7 @@
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
-} */
+}
 
 
 
@@ -828,12 +828,12 @@
     }
 }
 @media only screen and (min-width: 375px) and (max-width: 375px) {
-  .owa-powers-btn {
+    .owa-powers-btn {
         color: black;
         height: 70px !important;
         width: 70px !important;
         top: 40%;
-        left: 55%; 
+        left: 36%; 
     }
     
     .owa-powers-btn .bx.bx-power-off {
@@ -843,7 +843,7 @@
     
     }
     .owa {
-        background: url(../images/swirl1.jpg);
+        background: url(../images/swirl3.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -872,12 +872,12 @@
         margin-top: 20px;
     }
     #textInput:hover,
-#textInput:focus {
-    transform: scale(1.01);
-    background: rgba(67, 66, 66, 0.2);
-    box-shadow: 0 0 4px #023553, 0 0 5px, inset 0 0 10px rgb(16, 60, 86), 0 5px 20px rgba(4, 47, 59, 0.5), inset 0 0 15px rgba(74, 18, 104, 0.2) ;
-}
-
+    #textInput:focus {
+        transform: scale(1.01);
+        background: rgba(67, 66, 66, 0.2);
+        box-shadow: 0 0 4px #023553, 0 0 5px, inset 0 0 10px rgb(16, 60, 86), 0 5px 20px rgba(4, 47, 59, 0.5), inset 0 0 15px rgba(74, 18, 104, 0.2) ;
+    }
+    
 
     /* .navi .navi-button {
         position: fixed;

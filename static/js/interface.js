@@ -206,4 +206,3 @@ textInput.addEventListener("keydown", function (event) {
         goToQuizSection();
     }
 });
-

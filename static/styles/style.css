@@ -58,9 +58,7 @@ body {
     }
 }
 
-
 .owa-powers-btn {
-    position: fixed;
     color: black;
     background-image: linear-gradient(to left, #45092d 0%, #070111 100%);    
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2), inset 0 -6px 10px rgba(0, 0, 0, 0.2);
@@ -72,8 +70,8 @@ body {
     border: none;
     cursor: pointer;
     position: absolute; 
-    top: 42%;
-    left: 33.6%; 
+    top: 40%;
+    left: 33%; 
     transform: translate(-50%, -50%) translateZ(-4px);
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     animation: pulseBorder 2s infinite alternate, glisteningEffect 3s infinite;
@@ -821,10 +819,21 @@ body {
 @media only screen and (min-width: 375px) and (max-width: 375px) {
     .owa-powers-btn {
         color: black;
-        height: 70px !important;
-        width: 70px !important;
-        top: 40%;
-        left: 36%; 
+        background-image: linear-gradient(to left, #45092d 0%, #070111 100%);    
+        box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2), inset 0 -6px 10px rgba(0, 0, 0, 0.2);
+        border-radius: 50%;
+        height: 70px;
+        width: 70px;
+        text-align: center;
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+        position: absolute; 
+        top: 43%;
+        left: 38%; 
+        transform: translate(-50%, -50%) translateZ(-4px);
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        animation: pulseBorder 2s infinite alternate, glisteningEffect 3s infinite;
     }
     
     .owa-powers-btn .bx.bx-power-off {

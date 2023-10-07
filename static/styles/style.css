@@ -824,6 +824,7 @@ body {
 }
 @media only screen and (min-width: 375px) and (max-width: 375px) {
     .owa-powers-btn {
+        position: fixed;
         color: black;
         background-image: linear-gradient(to left, #45092d 0%, #070111 100%);    
         box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2), inset 0 -6px 10px rgba(0, 0, 0, 0.2);
@@ -858,6 +859,7 @@ body {
     height: 100%;
 }
     .owa {
+        position: fixed;
         background: url(../images/swirl3.jpg);
         background-size: cover;
         background-repeat: no-repeat;

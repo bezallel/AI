@@ -829,7 +829,7 @@ body {
         border: none;
         cursor: pointer;
         position: absolute; 
-        top: 43%;
+        top: 40%;
         left: 38%; 
         transform: translate(-50%, -50%) translateZ(-4px);
         transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;

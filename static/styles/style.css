@@ -11,7 +11,12 @@ body {
     background-color: #f2f2f2;
     font-family: Garamond, serif;
 }
-
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 
 /* CSS for the "owa" section */
 .owa {

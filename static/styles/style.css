@@ -582,11 +582,56 @@ body {
     }
 }
 @media only screen and (min-width: 640px) and (max-width: 640px){
+    .logo {
+        font-size: 32px;
+        text-decoration: none;
+        color: #fff;
+        font-weight: 300;
+        position: absolute;
+        top: -50px; 
+        left: 20px; 
+        z-index: 1; 
+    }
+    
+    
+    .chat-header  a{
+        font-size: 18px;
+        text-decoration: none;
+        color: #fff;
+        font-weight: 300;
+        position: absolute;
+        top: 20px; /* Adjust top position as needed */
+        left: 20px; /* Adjust left position as needed */
+        z-index: 1; /
+    }
+    
+    .logos {
+        /* position: fixed; */
+        animation: subtleMovement .5s infinite alternate ease-in-out;
+    }
+    
+    @keyframes subtleMovement {
+        0% {
+            transform: translateY(0);
+        }
+        100% {
+            transform: translateY(-3px); /* Adjust the movement distance as needed */
+        }
+    }
+    .owa {
+        background: url(../images/swirl3.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center fixed !important;
+        z-index: 100;
+        overflow: hidden;
+    }
     .owa-powers-btn {
         color: black;
         height: 70px ;
         width: 70px ;
-        top: 37%;
+        top: 32%;
         left: 46%; 
     }
     
@@ -597,7 +642,7 @@ body {
     
     }
     .chat-content {
-        max-height: 500px;
+        max-height: 200px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -605,7 +650,7 @@ body {
         margin-left: 25%;
         margin-right: 50%;
         width: 38%;
-        margin-top: -80px;
+        margin-top: -110px !important;
         gap: 10px;
         border: fixed;
         overflow-y: auto;
@@ -642,13 +687,55 @@ body {
         width: auto;
         box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.1); 
     }
-    #userInput {
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
+    #textInput {
+        background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+        width: 43%;
+        height: 69px;
+        min-width: 100px;
+        height: 69px;
+        border: none;
         margin-top: 60px;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 35px;
+        outline-color: transparent;
+        font-family: Cormorant Garamond;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-size: 20px;
+        outline: none;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        top: 68% !important;
+        z-index: 100;
+        position: absolute;
+        right: -2%; /* Adjust this value to your desired position */
+        top: calc(75% + 20px);
+        backdrop-filter: blur(10px);
+        box-shadow: 0 0 4px #023553, 0 0 5px, inset 0 0 10px rgb(16, 60, 86), 0 5px 20px rgba(4, 47, 59, 0.5), inset 0 0 15px rgba(74, 18, 104, 0.2) ; 
+        transform: perspective(1000px) rotateX(25deg);
+        transition: transform 0.2s, background 0.2s, box-shadow 0.2s;
+        transition-timing-function: ease-in-out; 
+    }
     
-      }
+    #textInput:before {
+        content: '';
+        position: absolute;
+        background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+        border-radius: 20px;
+        box-shadow: 0 0 1px;
+    }
+    
+    #textInput:hover,
+    #textInput:focus {
+        transform: scale(1.01);
+        background: rgba(67, 66, 66, 0.2);
+        box-shadow: 0 0 4px #023553, 0 0 5px, inset 0 0 10px rgb(16, 60, 86), 0 5px 20px rgba(4, 47, 59, 0.5), inset 0 0 15px rgba(74, 18, 104, 0.2) ;
+    }
+    
       .navi .navi-button {
         top: calc(64% + 10px); 
         right: calc(-5% + 10px); 

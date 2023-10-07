@@ -168,7 +168,7 @@ body {
         transform: translateY(-3px); /* Adjust the movement distance as needed */
     }
 }
-#author {
+/* #author {
     background-color: rgba(28, 1, 69, 0.788);
     opacity: .5;
     font-size: 12px;
@@ -177,7 +177,7 @@ body {
     padding: 10px;
     position: sticky;
     bottom: 0; 
-}
+} */
 
 .chat-container {
     display: flex;

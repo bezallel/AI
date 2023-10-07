@@ -828,12 +828,12 @@
     }
 }
 @media only screen and (min-width: 375px) and (max-width: 375px) {
-    .owa-powers-btn {
+  .owa-powers-btn {
         color: black;
         height: 70px !important;
         width: 70px !important;
         top: 40%;
-        left: 36%; 
+        left: 55%; 
     }
     
     .owa-powers-btn .bx.bx-power-off {
@@ -843,7 +843,7 @@
     
     }
     .owa {
-        background: url(../images/swirl3.jpg);
+        background: url(../images/swirl1.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;

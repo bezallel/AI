@@ -1,23 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Set a background color for the entire page */
-body {
-    background-color: #f2f2f2;
-    font-family: Garamond, serif;
-    position: relative;
-}
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
 
 /* CSS for the "owa" section */
 .owa {
@@ -29,7 +11,7 @@ body {
     background: url(../images/swirl.jpg); /* Replace with your "owa" section background image */
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: center fixed !important;
     background-position: center;
     z-index: 100;
     overflow: hidden;
@@ -41,11 +23,19 @@ body {
 }
 
 .owa-lock {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
 }
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
 
 /* Apply the alternating color animation to the icon */
 .owa-powers-btn .bx.bx-power-off {
@@ -64,6 +54,7 @@ body {
     }
 }
 
+
 .owa-powers-btn {
     position: fixed;
     color: black;
@@ -77,8 +68,8 @@ body {
     border: none;
     cursor: pointer;
     position: absolute; 
-    top: 40%;
-    left: 33%; 
+    top: 42%;
+    left: 33.6%; 
     transform: translate(-50%, -50%) translateZ(-4px);
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     animation: pulseBorder 2s infinite alternate, glisteningEffect 3s infinite;
@@ -168,16 +159,17 @@ body {
         transform: translateY(-3px); /* Adjust the movement distance as needed */
     }
 }
-/* #author {
+footer#author {
+    position: absolute;
     background-color: rgba(28, 1, 69, 0.788);
-    opacity: .5;
+    /* opacity: .5; */
     font-size: 12px;
     color: #fff;
     text-align: center;
     padding: 10px;
     position: sticky;
     bottom: 0; 
-} */
+}
 
 .chat-container {
     display: flex;
@@ -275,7 +267,7 @@ body {
     bottom: 0;
     right: 0;
     left: 0;
-    top: 68%;
+    top: 80%;
     z-index: 100;
     position: absolute;
     right: -2%; /* Adjust this value to your desired position */
@@ -808,7 +800,7 @@ body {
         background: url(../images/swirl3.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        background-attachment: fixed;
+        background-attachment: center fixed !important;
         background-position: center;
         z-index: 100;
         overflow: hidden;
@@ -832,7 +824,13 @@ body {
         height: 60vh ; 
         width: 130%;
     }
-  
+    .chat-content{
+        width: 64%;
+        margin-right: 59%;
+        height: 200px ;
+        max-height: 200px;
+        margin-top: 10px ;
+    }
     .owa {
         background: url(../images/swirl3.jpg);
         background-size: cover;
@@ -842,97 +840,6 @@ body {
         z-index: 100;
         overflow: hidden;
     }
-
-    .owa-powers-btn {
-        color: black;
-        height: 70px ;
-        width: 70px ;
-        top: 32%;
-        left: 46%; 
-    }
-    
-    .owa-powers-btn .bx.bx-power-off {
-        font-size: 30px;
-        font-weight: 100;
-        color: black; 
-    
-    }
-    .chat-content {
-        max-height: 200px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 10px;
-        margin-left: 25%;
-        margin-right: 50%;
-        width: 38%;
-        margin-top: -110px !important;
-        gap: 10px;
-        border: fixed;
-        overflow-y: auto;
-        scroll-behavior: smooth;
-    }
-    #textInput {
-        background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
-        width: 43%;
-        height: 69px;
-        min-width: 100px;
-        height: 69px;
-        border: none;
-        margin-top: 60px;
-        margin-right: auto;
-        margin-left: auto;
-        border-radius: 35px;
-        outline-color: transparent;
-        font-family: Cormorant Garamond;
-        color: white;
-        text-align: center;
-        text-decoration: none;
-        font-size: 20px;
-        outline: none;
-        position: fixed;
-        bottom: 0;
-        right: 0;
-        left: 0;
-        top: 68% !important;
-        z-index: 100;
-        position: absolute;
-        right: -2%; /* Adjust this value to your desired position */
-        top: calc(75% + 20px);
-        backdrop-filter: blur(10px);
-        box-shadow: 0 0 4px #023553, 0 0 5px, inset 0 0 10px rgb(16, 60, 86), 0 5px 20px rgba(4, 47, 59, 0.5), inset 0 0 15px rgba(74, 18, 104, 0.2) ; 
-        transform: perspective(1000px) rotateX(25deg);
-        transition: transform 0.2s, background 0.2s, box-shadow 0.2s;
-        transition-timing-function: ease-in-out; 
-    }
-    
-    #textInput:before {
-        content: '';
-        position: absolute;
-        background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
-        border-radius: 20px;
-        box-shadow: 0 0 1px;
-    }
-    
-    #textInput:hover,
-    #textInput:focus {
-        transform: scale(1.01);
-        background: rgba(67, 66, 66, 0.2);
-        box-shadow: 0 0 4px #023553, 0 0 5px, inset 0 0 10px rgb(16, 60, 86), 0 5px 20px rgba(4, 47, 59, 0.5), inset 0 0 15px rgba(74, 18, 104, 0.2) ;
-    }
-    
-      .navi .navi-button {
-        top: calc(64% + 10px); 
-        right: calc(-5% + 10px); 
-    }
-    .chat-content{
-        width: 64%;
-        margin-right: 59%;
-        max-height: 290px ;
-        margin-top: -40px;
-    }
-}
-
     #textInput {
         margin-top: 47%;
     }
@@ -998,41 +905,29 @@ body {
 @media only screen and (min-width: 375px) and (max-width: 375px) {
     .owa-powers-btn {
         color: black;
-        background-image: linear-gradient(to left, #45092d 0%, #070111 100%);    
-        box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2), inset 0 -6px 10px rgba(0, 0, 0, 0.2);
-        border-radius: 50%;
-        height: 70px;
-        width: 70px;
-        text-align: center;
-        padding: 10px;
-        border: none;
-        cursor: pointer;
-        position: absolute; 
+        height: 70px !important;
+        width: 70px !important;
         top: 40%;
-        left: 38%; 
-        transform: translate(-50%, -50%) translateZ(-4px);
-        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-        animation: pulseBorder 2s infinite alternate, glisteningEffect 3s infinite;
+        left: 36%; 
     }
     
     .owa-powers-btn .bx.bx-power-off {
         font-size: 30px;
         font-weight: 100;
         color: black; 
+
     }
     .owa.active {
-    transform: translateX(100%); /* Slide the "owa" section away to reveal the chat area */
-}
-
-.owa-lock {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-}
+        transform: translateX(100%); /* Slide the "owa" section away to reveal the chat area */
+    }
+    
+    .owa-lock {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
     .owa {
-        position: fixed;
         background: url(../images/swirl3.jpg);
         background-size: cover;
         background-repeat: no-repeat;

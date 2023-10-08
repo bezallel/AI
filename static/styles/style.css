@@ -389,7 +389,6 @@ footer#author {
         max-height: 370px;
         margin-top: -40px;
         overflow: hidden;
-        margin: 0 auto; 
         overflow-y: auto;
         padding: 10px;
     }
@@ -587,7 +586,6 @@ footer#author {
         max-height: 290px ;
         margin-top: -40px;
         overflow: hidden;
-        margin: 0 auto; 
         overflow-y: auto;
         padding: 10px;
     }
@@ -600,7 +598,6 @@ footer#author {
         max-height: 370px;
         margin-top: -40px;
         overflow: hidden;
-        margin: 0 auto; 
         overflow-y: auto;
         padding: 10px;
     }
@@ -651,8 +648,7 @@ footer#author {
         margin-right: 59%;
         max-height: 370px;
         margin-top: -40px;
-        overflow: hidden;
-        margin: 0 auto; 
+        overflow: hidden; 
         overflow-y: auto;
         padding: 10px;
     }
@@ -771,8 +767,7 @@ footer#author {
         border: fixed;
         overflow-y: auto;
         scroll-behavior: smooth;
-        overflow: hidden;
-        margin: 0 auto; 
+        overflow: hidden; 
     }
     
     .user-message {
@@ -959,7 +954,7 @@ footer#author {
         display: flex;
         flex-direction: column;
         justify-content: center; 
-        align-items: center; /* Align content horizontally in the middle */
+        align-items: center; 
         border-radius: 10px;
         margin-top: 120px;
         height: 60vh; 
@@ -967,11 +962,10 @@ footer#author {
     }
     .chat-content{
         width: 64%;
-        margin-right: 53%;
+        margin-right: 59%;
         max-height: 310px;
         margin-top: -10px;
         overflow: hidden;
-        margin: 0 auto; 
         overflow-y: auto;
         padding: 10px;
     }
@@ -1033,8 +1027,8 @@ footer#author {
         max-height: 310px ;
         margin-top: -10px ;
         overflow: hidden;
-        margin: 0 auto; 
         overflow-y: auto;
+        padding: 10px;
     }
    
     
@@ -1054,7 +1048,6 @@ footer#author {
         max-height: 340px;
         margin-top: -10px;
         overflow: hidden;
-        margin: 0 auto; 
         overflow-y: auto;
         padding: 10px;
     }
@@ -1082,8 +1075,7 @@ footer#author {
         margin-right: 59%;
         max-height: 370px;
         margin-top: -30px ;
-        overflow: hidden;
-        margin: 0 auto; 
+        overflow: hidden; 
         overflow-y: auto;
         padding: 10px;
     }
@@ -1226,8 +1218,7 @@ footer#author {
         margin-right: 59%;
         max-height: 220px ;
         margin-top: -10px;
-        overflow: hidden;
-        margin: 0 auto; 
+        overflow: hidden; 
         overflow-y: auto;
         padding: 10px;
     }
@@ -1264,8 +1255,7 @@ footer#author {
         height: 410px ;
         max-height: 310px ;
         margin-top: -30px ;
-        overflow: hidden;
-        margin: 0 auto; 
+        overflow: hidden; 
         overflow-y: auto;
         padding: 10px;
     }

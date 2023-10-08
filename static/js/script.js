@@ -33,7 +33,9 @@ document.addEventListener("DOMContentLoaded", function () {
             "tag": "Sentence",
             "patterns": ["sentences", "sentence","sent","senten","sentence structure", "more sentences", "more sentence","SENTENCES", "structure"],
             "responses": [
-            "In the Sentence Structure category, You will learn basic sentence structure which includes conjugations, filler words and simples sentences. At the end of this category, you should be able to construct basic sentences.\nHere's the conjugation of the verb 'To be' in Pidgin:\nI be - (I am).\nYou be or You dey - (You are).\nHe/She/e be - (He/She/It is).\nWe be - (We are).\nDem be or Dem dey - (They are).",
+            "In the Sentence Structure category, You will learn basic sentence structure which includes conjugations, filler words and simples sentences. At the end of this category, you should be able to construct basic sentences.",
+            
+            "Here's the conjugation of the verb 'To be' in Pidgin:\nI be - (I am).\nYou be or You dey - (You are).\nHe/She/e be - (He/She/It is).\nWe be - (We are).\nDem be or Dem dey - (They are).",
         
             "To know in pidgin is the word 'sabi', Under certain circumstances, the word 'fit' which means 'to do' may be used instead.\nHere's the conjugation of the verb 'To know' or 'sabi':\nI sabi,\nYou sabi,\nHe/She/e sabi,\nWe sabi, \nDem sabi.",
                 
@@ -286,6 +288,11 @@ document.addEventListener("DOMContentLoaded", function () {
             "responses": ["Name: Sibi, Meaning: 'Chat-Bot'."]
             },
             {
+            "tag": "nameani-sibi",
+            "patterns": ["what does your name sound like?"],
+            "responses": ["C.B. Sibi."]
+            },
+            {
             "tag": "meaning_Sibi",
             "patterns": ["what does your name mean?", "name meaning", "why sibi?", "why cb?", "why cb", ",meaning of your name","what is the meaning of your name?", "what is the meaning of your name?", "what are you named after"],
             "responses": ["It simply means Chat-Bot... 'CB'."]
@@ -420,7 +427,6 @@ document.addEventListener("DOMContentLoaded", function () {
             "patterns": ["you don’t know anything", "you no sabi teach", "not enough information"],
             "responses": ["I am designed to be a simple bot. Nothing too detailed."]
             }
-        // Add more intents as needed
     ];
 
    // Create an object to store the response counters for each intent

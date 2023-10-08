@@ -1108,7 +1108,8 @@ body{
         margin: 0 0 0 110px;
     }
     .quiz-section .result-box {
-        width: 300px;
+        width: 327px;
+        margin-top: -10%;
     }
     
 }

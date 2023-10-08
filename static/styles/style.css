@@ -916,7 +916,7 @@ footer#author {
         overflow: hidden;
     }
 }
-@media only screen and (min-width: 375px) and (max-width: 375px) {
+@media only screen and (min-width: 375px) and (max-width: 375px) and (orientation: landscape) {
     .owa-powers-btn {
         color: black;
         height: 70px !important;

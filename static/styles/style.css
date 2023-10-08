@@ -345,6 +345,16 @@ footer#author {
         transition: transform 0.5s ease-in-out; /* Added transition for sliding effect */
     }
     
+    .owa.active {
+        transform: translateX(100%); /* Slide the "owa" section away to reveal the chat area */
+    }
+    
+    .owa-lock {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
     #textInput {
         width: 49%;
         height: 69px;
@@ -720,6 +730,16 @@ footer#author {
         width: 70px ;
         top: 32%;
         left: 46%; 
+    }
+    .owa.active {
+        transform: translateX(100%); /* Slide the "owa" section away to reveal the chat area */
+    }
+    
+    .owa-lock {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
     }
     
     .owa-powers-btn .bx.bx-power-off {
@@ -1104,8 +1124,8 @@ footer#author {
         color: black;
         height: 70px ;
         width: 70px ;
-        top: 41%;
-        left: 31%; 
+        top: 40%;
+        left: 44%; 
     }
     .owa-powers-btn .bx.bx-power-off {
         font-size: 45px;

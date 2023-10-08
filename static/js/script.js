@@ -11,8 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
               
               "Good day, I am Sibi. Here to help you learn Pidgin English.\nI offer the following categories: Sentence Structure, Expressions, Traits, Action, Pleasantries, Quiz, and Random Nigerian Facts. \nHow to Explore Categories:\nType a category you're interested in, like 'sentences' or 'traits.'\nPress 'Enter' and a navigation button will appear.\nClick the button to explore content in your chosen category.\nWhen done, type a new category and repeat the process.\nEnjoy exploring and learning!", 
             
-            "Hello, I am Sibi. Let me teach you Pidgin English.\nSee Available Categories: Sentence Structure, Expressions, Traits, Action, Pleasantries, Quiz, and Random Nigerian Facts. \nHow to Explore Categories:\nType a category you're interested in, like 'sentences' or 'traits.'\nPress 'Enter' and a navigation button will appear.\nClick the button to explore content in your chosen category.\nWhen done, type a new category and repeat the process.\nEnjoy exploring and learning!"
-          ]
+            "Hello, I am Sibi. Let me teach you Pidgin English.\nSee Available Categories: Sentence Structure, Expressions, Traits, Action, Pleasantries, Quiz, and Random Nigerian Facts. \nHow to Explore Categories:\nType a category you're interested in, like 'sentences' or 'traits.'\nPress 'Enter' and a navigation button will appear.\nClick the button to explore content in your chosen category.\nWhen done, type a new category and repeat the process.\nEnjoy exploring and learning!"]
             },
             {
             "tag": "Interesting",
@@ -218,7 +217,7 @@ document.addEventListener("DOMContentLoaded", function () {
             },
             {
             "tag": "facts",
-            "patterns": ["Nigerian facts", "facts", "fas", "fat", "fats","fact", "slang facts", "urban facts", "more facts"],
+            "patterns": ["Nigerian facts", "facts", "fas", "fat", "fats","fact", "pidgin facts", "urban facts", "more facts"],
             "responses": [
             "Nigerians say words twice for emphasis. Examples include but are not limited to:\nCorner corner (kor-nah kor-nah: to cut corners).\nMago mago (mah-go mah-go: fraud/cheat).\nLie lie (self explanatory).\nWell well (very much).\nNow now (immediately).\nGra gra (grah grah: aggressive).\nPoto poto(puh-tuh puh -tuh: mud or muddy place).\nYama yama(yah-mah yah-mah: dirt/something disgusting).",
         
@@ -335,7 +334,7 @@ document.addEventListener("DOMContentLoaded", function () {
             {
             "tag": "reason",
             "patterns": ["why were you created?", "why do you exist?", "what is your function", "what can you do?", "what do you know?"],
-            "responses": ["I exist to teach pidgin english to anyone who would like to learn it...If you ever find yourself in Nigeria, you would be confident enough to string tohether sentences, speak to the locals and wow them with your extensive and impressive knowledge of pidgn slangs and expressions."]
+            "responses": ["I exist to teach pidgin english to anyone who would like to learn it...If you ever find yourself in Nigeria, you would be confident enough to string tohether sentences, speak to the locals and wow them with your extensive and impressive knowledge of pidgin."]
             },
             {
             "tag": "About me",
@@ -344,7 +343,7 @@ document.addEventListener("DOMContentLoaded", function () {
             },
             {
             "tag": "teach",
-            "patterns": ["teach me Nigerian slangs", "teach me Nigerian sentences"],
+            "patterns": ["teach me pidgin english", "teach me pidgin", "teach me Nigerian sentences"],
             "responses": ["Happy to. Just say hello to me... Yes. Say hello or hi so we can begin"]
             },
             {
@@ -415,7 +414,7 @@ document.addEventListener("DOMContentLoaded", function () {
             {
             "tag": "say-hi-Sibi",
             "patterns": ["how are you", "how do you feel", "how are you doing", "how do you do"],
-            "responses": ["I am doing great. Thank you. Are you up for Nigerian Slang lessons? If yes, ask me what categories are available."]
+            "responses": ["I'm doing great. Thank you. Are you up for pidgin lessons? If yes, ask me what categories are available."]
             },
             {
             "tag": "what else",

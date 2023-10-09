@@ -11,7 +11,7 @@
     background: url(../images/swirl.jpg); /* Replace with your "owa" section background image */
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: center fixed;
     background-position: center;
     z-index: 100;
     overflow: hidden;
@@ -55,8 +55,8 @@
 }
 
 
-.owa-powers-btn {
-    position: fixed;
+.owa .owa-powers-btn {
+    position: absolute;
     color: black;
     background-image: linear-gradient(to left, #45092d 0%, #070111 100%);    
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2), inset 0 -6px 10px rgba(0, 0, 0, 0.2);

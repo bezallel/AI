@@ -77,8 +77,8 @@
     border: none;
     cursor: pointer;
     position: absolute; 
-    top: 42%;
-    left: 33.6%; 
+    top: 37%;
+    left: 31%;  
     z-index: 101;
 /*     transform: translate(-50%, -50%) translateZ(-4px); */
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;

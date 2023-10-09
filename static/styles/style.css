@@ -928,20 +928,21 @@ footer#author {
 }
 @media only screen and (min-width: 375px) and (max-width: 375px) /*and (orientation: landscape)*/{
 
+    
     .owa-power-container {
         position: fixed;
         top: 42%;
-        left: 38% !important;
-        z-index: 101;
-        transform: translate(-50%, -50%) translateZ(-4px);
+        left: 38%;
     }
-    .owa-powers-btn {
+    
+    /* .owa-powers-btn {
         color: black;
         height: 70px !important;
         width: 70px !important;
         top: 40%;
-        left: 36%; 
-    }
+        left: 38% !important; 
+    } */
+    
     
     .owa-powers-btn .bx.bx-power-off {
         font-size: 30px;

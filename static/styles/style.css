@@ -11,7 +11,7 @@
     background: url(../images/swirl.jpg); /* Replace with your "owa" section background image */
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: center fixed;
+/*     background-attachment: center fixed; */
     background-position: center;
     z-index: 100;
     overflow: hidden;
@@ -69,7 +69,7 @@
     cursor: pointer;
     position: absolute; 
     top: 42%;
-    margin-left: -28.6%; 
+    left: 33.6%; 
     z-index: 101;
     transform: translate(-50%, -50%) translateZ(-4px);
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;

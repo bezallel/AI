@@ -933,6 +933,8 @@ footer#author {
         position: fixed;
         top: 42%;
         left: 38%;
+        z-index: 101;
+        transform: translate(-50%, -50%) translateZ(-4px);
     }
     
     /* .owa-powers-btn {

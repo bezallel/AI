@@ -11,7 +11,7 @@
     background: url(../images/swirl.jpg); /* Replace with your "owa" section background image */
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: center fixed !important;
+    background-attachment: fixed;
     background-position: center;
     z-index: 100;
     overflow: hidden;

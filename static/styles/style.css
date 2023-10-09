@@ -930,7 +930,7 @@ footer#author {
 
     .owa-power-container {
         position: fixed;
-        top: 40%;
+        top: 42%;
         left: 38% !important;
         z-index: 101;
         transform: translate(-50%, -50%) translateZ(-4px);

@@ -1004,13 +1004,13 @@ footer#author {
     }
 }
 @media only screen and (min-width: 375px) and (max-width: 375px) /*and (orientation: landscape)*/{
-    .owa-powers-btn {
+/*     .owa-powers-btn {
         color: black;
         height: 70px !important;
         width: 70px !important;
         top: 40%;
         left: 36%; 
-    }
+    } */
     
     .bx-power-off {
         position: fixed;

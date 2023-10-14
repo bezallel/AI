@@ -1013,6 +1013,7 @@ footer#author {
     }
     
     .bx-power-off {
+        position: fixed;
         font-size: 22px;
         font-weight: 100;
         color: black; 

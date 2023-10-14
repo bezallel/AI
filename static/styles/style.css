@@ -1019,6 +1019,7 @@ footer#author {
         color: black; 
         top: 38.8%;
         left: 35.1%; 
+        transform: translateX(-50%);
     }
     .owa.active {
         transform: translateX(100%); /* Slide the "owa" section away to reveal the chat area */

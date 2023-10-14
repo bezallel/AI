@@ -1000,7 +1000,7 @@ footer#author {
         font-weight: 100;
         color: black; 
         top: 39% !important;
-        left: 32.1% !important; 
+        left: 33.1% !important; 
     }
 }
 @media only screen and (min-width: 375px) and (max-width: 375px) /*and (orientation: landscape)*/{
@@ -1018,7 +1018,7 @@ footer#author {
         font-weight: 100;
         color: black; 
         top: 38.8%;
-        left: 35.1%; 
+        left: 36.1%; 
         transform: translateX(-50%);
     }
     .owa.active {

@@ -69,8 +69,8 @@
     background-image: linear-gradient(to left, #45092d 0%, #070111 100%);    
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2), inset 0 -6px 10px rgba(0, 0, 0, 0.2);
     border-radius: 50%;
-    height: 120px;
-    width: 120px;
+    height: 70px;
+    width: 70px;
     text-align: center;
     padding: 10px;
     border: none;
@@ -85,12 +85,10 @@
 }
 
 .owa-powers-btn .bx.bx-power-off {
-    font-size: 60px;
+    font-size: 30px;
     font-weight: 100;
     color: rgb(123, 233, 233); 
-
 }
-
 
 /* chat area */
 

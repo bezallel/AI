@@ -54,13 +54,13 @@
     }
 }
 
-.owa-power-container {
+/* .owa-power-container {
     position: fixed;
-    top: 42%; /* Adjust these values as needed */
-    left: 33.6%; /* Adjust these values as needed */
+    top: 42%; 
+    left: 33.6%;
     z-index: 101;
     transform: translate(-50%, -50%) translateZ(-4px);
-}
+} */
 
 
 .owa-powers-btn {

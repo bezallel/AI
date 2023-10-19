@@ -1087,7 +1087,7 @@ footer#author {
         width: 64%;
         margin-right: 59%;
         max-height: 360px !important;
-        height: 410px !important; /* height of chat box*/
+        height: 370px !important; /* height of chat box*/
         margin-top: -170px !important;/* moves chat box up the higher the number*/
         overflow: hidden;
         overflow-y: auto;

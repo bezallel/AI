@@ -56,8 +56,8 @@
 
 .owa-power-container {
     position: fixed;
-    top: 42%; /* Adjust these values as needed */
-    left: 33.6%; /* Adjust these values as needed */
+    top: calc(42% - 35px); 
+    left: calc(49.3% - 35px); /* Adjust these values as needed */
     z-index: 101;
     transform: translate(-50%, -50%) translateZ(-4px);
 }

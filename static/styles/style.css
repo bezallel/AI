@@ -8,18 +8,18 @@
     left: 0;
     width: 100%;
     height: 100vh;
-    background: url(../images/swirl.jpg); /* Replace with your "owa" section background image */
+    background: url(../images/swirl.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: center fixed;
     background-position: center;
     z-index: 100;
     overflow: hidden;
-    transition: transform 0.5s ease-in-out; /* Added transition for sliding effect */
+    transition: transform 0.5s ease-in-out; 
 }
 
 .owa.active {
-    transform: translateX(100%); /* Slide the "owa" section away to reveal the chat area */
+    transform: translateX(100%); 
 }
 
 .owa-lock {
@@ -35,36 +35,32 @@
     align-items: center;
     height: 100vh;
 }
-
-
-/* Apply the alternating color animation to the icon */
 .owa-powers-btn .bx.bx-power-off {
     font-size: 30px;
     font-weight: 100;
     animation: alternateColors 2s infinite alternate;
 }
 
-/* Define the keyframes for the alternating color animation */
+
 @keyframes alternateColors {
     0% {
-        color: white; /* Start with white color */
+        color: white; 
     }
     100% {
-        color: black; /* End with black color */
+        color: black; 
     }
 }
 
 .owa-power-container {
     position: fixed;
-    top: 42%; /* Adjust these values as needed */
-    left: 33.6%; /* Adjust these values as needed */
+    top: 42%; 
+    left: 33.6%; 
     z-index: 101;
     transform: translate(-50%, -50%) translateZ(-4px);
 }
 
 
 .owa-powers-btn {
-    /* position: fixed; */
     position: fixed;
     color: black;
     background-image: linear-gradient(to left, #45092d 0%, #070111 100%);    
@@ -393,11 +389,26 @@ footer#author {
         color: black; 
     
     }
+    .logos{
+        display: none;
+    }
+
+    .chat-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center; 
+        border-radius: 10px;
+        margin-top: 20px;
+        height: 110vh; 
+        width: 130%;
+    }
     .chat-content{
         width: 64%;
         margin-right: 59%;
-        max-height: 370px;
-        margin-top: -40px;
+        max-height: 780px !important;
+        height: 480px !important; /* height of chat box*/
+        margin-top: -170px !important;/* moves chat box up*/
         overflow: hidden;
         overflow-y: auto;
         padding: 10px;
@@ -601,16 +612,95 @@ footer#author {
     }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 320px) {
+@media only screen and (min-width: 428px) and (max-width: 428px){
+    .logos{
+        display: none;
+    }
+
+    .chat-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center; 
+        border-radius: 10px;
+        margin-top: 20px;
+        /* height: 100vh;  */
+        max-height: 880px !important;
+        width: 130%;
+    }
     .chat-content{
         width: 64%;
         margin-right: 59%;
-        max-height: 370px;
-        margin-top: -40px;
+        max-height: 780px !important;
+        height: 580px !important; /* height of chat box*/
+        margin-top: -170px !important;/* moves chat box up*/
         overflow: hidden;
         overflow-y: auto;
         padding: 10px;
     }
+    .navi .navi-button {
+        top: calc(72% + 10px); 
+        right: calc(-5% + 10px); 
+    }
+}
+@media only screen and (min-width: 430px) and (max-width: 430px){
+    .logos{
+        display: none;
+    }
+
+    .chat-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center; 
+        border-radius: 10px;
+        margin-top: 20px;
+        /* height: 100vh;  */
+        max-height: 880px !important;
+        width: 130%;
+    }
+    .chat-content{
+        width: 64%;
+        margin-right: 59%;
+        max-height: 780px !important;
+        height: 580px !important; /* height of chat box*/
+        margin-top: -170px !important;/* moves chat box up*/
+        overflow: hidden;
+        overflow-y: auto;
+        padding: 10px;
+    }
+    .navi .navi-button {
+        top: calc(72% + 10px); 
+        right: calc(-5% + 10px); 
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 320px) {
+    .logos{
+        display: none;
+    }
+
+    .chat-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center; 
+        border-radius: 10px;
+        margin-top: 60px;
+        height: 100vh; 
+        width: 130%;
+    }
+    .chat-content{
+        width: 64%;
+        margin-right: 59%;
+        max-height: 780px !important;
+        height: 460px !important; /* height of chat box*/
+        margin-top: -170px !important;/* moves chat box up the higher the number*/
+        overflow: hidden;
+        overflow-y: auto;
+        padding: 10px;
+    }
+    
     .owa {
         background: url(../images/swirl3.jpg);
         background-size: cover;
@@ -653,15 +743,31 @@ footer#author {
         z-index: 100;
         overflow: hidden;
     }
+    .logos{
+        display: none;
+    }
+
+    .chat-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center; 
+        border-radius: 10px;
+        margin-top: 60px;
+        height: 100vh; 
+        width: 130%;
+    }
     .chat-content{
         width: 64%;
         margin-right: 59%;
-        max-height: 370px;
-        margin-top: -40px;
-        overflow: hidden; 
+        max-height: 780px !important;
+        height: 460px !important; /* height of chat box*/
+        margin-top: -170px !important;/* moves chat box up the higher the number*/
+        overflow: hidden;
         overflow-y: auto;
         padding: 10px;
     }
+    
     .owa {
         background: url(../images/swirl3.jpg);
         background-size: cover;
@@ -963,21 +1069,26 @@ footer#author {
         z-index: 100;
         overflow: hidden;
     }
+    .logos{
+        display: none;
+    }
+
     .chat-container {
         display: flex;
         flex-direction: column;
         justify-content: center; 
         align-items: center; 
         border-radius: 10px;
-        margin-top: 120px;
-        height: 60vh; 
+        margin-top: 60px;
+        height: 90vh; 
         width: 130%;
     }
     .chat-content{
         width: 64%;
         margin-right: 59%;
-        max-height: 310px;
-        margin-top: -10px;
+        max-height: 780px !important;
+        height: 460px !important; /* height of chat box*/
+        margin-top: -170px !important;/* moves chat box up the higher the number*/
         overflow: hidden;
         overflow-y: auto;
         padding: 10px;
@@ -1024,25 +1135,32 @@ footer#author {
         z-index: 100;
         overflow: hidden;
     }
+    .logos{
+        display: none;
+    }
+
     .chat-container {
         display: flex;
         flex-direction: column;
         justify-content: center; 
-        align-items: center; /* Align content horizontally in the middle */
+        align-items: center; 
         border-radius: 10px;
-        margin-top: 120px;
-        height: 60vh; 
+        margin-top: 20px;
+        /* height: 100vh;  */
+        max-height: 880px !important;
         width: 130%;
     }
     .chat-content{
         width: 64%;
         margin-right: 59%;
-        max-height: 310px ;
-        margin-top: -10px ;
+        max-height: 780px !important;
+        height: 580px !important; /* height of chat box*/
+        margin-top: -170px !important;/* moves chat box up*/
         overflow: hidden;
         overflow-y: auto;
         padding: 10px;
     }
+    
    
     
     #textInput {
@@ -1055,11 +1173,27 @@ footer#author {
     }
 }
 @media only screen and (min-width: 390px) and (max-width: 390px) {
+    .logos{
+        display: none;
+    }
+
+    .chat-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center; 
+        border-radius: 10px;
+        margin-top: 40px;
+        height: 100vh; 
+       
+        width: 130%;
+    }
     .chat-content{
         width: 64%;
         margin-right: 59%;
-        max-height: 340px;
-        margin-top: -10px;
+        max-height: 780px !important;
+        height: 580px !important; /* height of chat box*/
+        margin-top: -160px !important;/* moves chat box up*/
         overflow: hidden;
         overflow-y: auto;
         padding: 10px;
@@ -1083,15 +1217,32 @@ footer#author {
     } */
 }
 @media only screen and (min-width: 393px) and (max-width: 393px) {
+    .logos{
+        display: none;
+    }
+
+    .chat-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center; 
+        border-radius: 10px;
+        margin-top: 20px;
+        /* height: 100vh;  */
+        max-height: 880px !important;
+        width: 130%;
+    }
     .chat-content{
         width: 64%;
         margin-right: 59%;
-        max-height: 370px;
-        margin-top: -30px ;
-        overflow: hidden; 
+        max-height: 780px !important;
+        height: 580px !important; /* height of chat box*/
+        margin-top: -170px !important;/* moves chat box up*/
+        overflow: hidden;
         overflow-y: auto;
         padding: 10px;
     }
+    
     .owa {
         background: url(../images/swirl3.jpg);
         background-size: cover;
@@ -1128,6 +1279,41 @@ footer#author {
         right: calc(9% + 10px); 
     } */
 }
+
+@media only screen and (min-width: 884px) and (max-width: 884px){
+    .owa-powers-btn {
+        color: black;
+        height: 70px;
+        width: 70px;
+        top: 42%;
+        left: 41.5%; 
+    }
+    .chat-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center; 
+        border-radius: 10px;
+        margin-top: 20px;
+        /* height: 100vh;  */
+        max-height: 980px !important;
+        width: 140%;
+    }
+    .chat-content{
+        width: 64%;
+        margin-right: 59%;
+        /* height: 780px !important; */
+        margin-top: -80px !important;
+        overflow: hidden;
+        overflow-y: auto;
+        padding: 10px;
+    }
+    .navi .navi-button {
+        top: calc(72% + 10px); 
+        right: calc(-5% + 10px); 
+    }
+}
+
 @media only screen and (min-width: 800px) and (max-width: 800px){
     .owa {
         background: url(../images/swirl3.jpg);
@@ -1252,26 +1438,32 @@ footer#author {
         z-index: 100;
         overflow: hidden;
     }
+    .logos{
+        display: none;
+    }
+
     .chat-container {
         display: flex;
         flex-direction: column;
         justify-content: center; 
-        align-items: center; /* Align content horizontally in the middle */
+        align-items: center; 
         border-radius: 10px;
-        margin-top: 50px ;
-        height: 80vh ; 
+        margin-top: 20px;
+        /* height: 100vh;  */
+        max-height: 880px !important;
         width: 130%;
     }
     .chat-content{
         width: 64%;
         margin-right: 59%;
-        height: 410px ;
-        max-height: 310px ;
-        margin-top: -30px ;
-        overflow: hidden; 
+        max-height: 780px !important;
+        height: 580px !important; /* height of chat box*/
+        margin-top: -170px !important;/* moves chat box up*/
+        overflow: hidden;
         overflow-y: auto;
         padding: 10px;
     }
+    
     .navi .navi-button {
         top: calc(75% + 10px); 
         right: calc(32% + 10px); 

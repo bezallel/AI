@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const userInput = document.getElementById("textInput");
 
     const intents = [
-        {
+         {
             "tag": "introduction",
             "patterns": ["hello", "good day", "i hail o", "hola", "how far?", "whats up?", "good morning", "good afternoon", "hello hello", "good evening", "hey", "hey hey", "hi", "hi hi", "good day", "how is it going?", "wassup?", "wozup?", "how far na?", "is anyone there?", "knock knock, Sibi hello", "good day Sibi", "Sibi good day", "Sibi how far?", "how far Sibi?", "whats up Sibi?", "Sibi whats up?", "good morning Sibi", "Sibi good morning", "good afternoon Sibi", "good evening Sibi", "hey Sibi", "hey hey Sibi", "hi Sibi", "hi hi Sibi", "how is it going Sibi?", "wassup Sibi?", "wozup Sibi?","oya talk", "how far na Sibi?", "Sibi are you there?", "knock knock Sibi"],
             "responses": ["Welcome. I am Sibi. Here to assist in your learning Pidgin English.\nCategories Available: Sentence Structure, Expressions, Traits, Action, Pleasantries, Quiz, and Random Nigerian Facts.\nHow to Explore Categories:\nType a category you're interested in, like 'sentences' or 'traits.'\nPress 'Enter' and a navigation button will appear.\nClick the button to explore content in your chosen category.\nWhen done, type a new category and repeat the process.\nEnjoy exploring and learning!",
@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
             "responses": [
             "In the Sentence Structure category, You will learn basic sentence structure which includes conjugations, filler words and simples sentences. At the end of this category, you should be able to construct basic sentences.",
             
-            "Here's the conjugation of the verb 'To be' in Pidgin:\nI be - (I am).\nYou be or You dey - (You are).\nHe/She/e be - (He/She/It is).\nWe be - (We are).\nDem be or Dem dey - (They are).",
+            "Here's the conjugation of the verb 'To be' in Pidgin:\n'I be' - (I am). Example: 'I be student' (I am a student).\n'You be' or 'You dey' - (You are). Example: 'You dey eat' (You are eating).\n'He/She/It be' - (He/She/It is). Example: 'He be doctor' (He is a doctor).\n'We be' - (We are). Example: 'We be friends' (We are friends).\n'Dem be' or 'Dem dey' - (They are). Example: 'Dem dey work' (They are working).",
         
             "To know in pidgin is the word 'sabi', Under certain circumstances, the word 'fit' which means 'to do' may be used instead.\nHere's the conjugation of the verb 'To know' or 'sabi':\nI sabi,\nYou sabi,\nHe/She/e sabi,\nWe sabi, \nDem sabi.",
                 

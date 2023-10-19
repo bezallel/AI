@@ -8,7 +8,7 @@
     left: 0;
     width: 100%;
     height: 100vh;
-    background: url(../images/siwirl.jpg); /* Replace with your "owa" section background image */
+    background: url(../images/swirl.jpg); /* Replace with your "owa" section background image */
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: center fixed;
@@ -56,14 +56,15 @@
 
 .owa-power-container {
     position: fixed;
-    top: calc(42% - 35px); 
-    left: calc(49.3% - 35px); /* Adjust these values as needed */
+    top: 42%; /* Adjust these values as needed */
+    left: 33.6%; /* Adjust these values as needed */
     z-index: 101;
     transform: translate(-50%, -50%) translateZ(-4px);
 }
 
 
 .owa-powers-btn {
+    /* position: fixed; */
     position: fixed;
     color: black;
     background-image: linear-gradient(to left, #45092d 0%, #070111 100%);    
@@ -76,10 +77,10 @@
     border: none;
     cursor: pointer;
     position: absolute; 
-    top: calc(42% - 35px); 
-    left: calc(49.3% - 35px); 
+     top: 42%;
+    left: 33.6%; 
     z-index: 101;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) translateZ(-4px);
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     animation: pulseBorder 2s infinite alternate, glisteningEffect 3s infinite;
 }
@@ -88,7 +89,9 @@
     font-size: 30px;
     font-weight: 100;
     color: rgb(123, 233, 233); 
+
 }
+
 
 /* chat area */
 

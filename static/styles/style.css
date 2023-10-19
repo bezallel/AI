@@ -16,6 +16,7 @@
     z-index: 100;
     overflow: hidden;
     transition: transform 0.5s ease-in-out; 
+    
 }
 
 .owa.active {
@@ -1080,7 +1081,7 @@ footer#author {
         align-items: center; 
         border-radius: 10px;
         margin-top: 60px;
-        height: 90vh; 
+        height: 70vh; 
         width: 130%;
     }
     .chat-content{

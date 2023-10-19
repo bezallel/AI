@@ -30,7 +30,7 @@
     height: 100%;
 }
 .container {
-    display: flex;
+/*     display: flex; */
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -79,18 +79,18 @@
     position: absolute; 
      top: 42%;
     left: 33.6%; 
-    z-index: 101;
+/*     z-index: 101; */
     transform: translate(-50%, -50%) translateZ(-4px);
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     animation: pulseBorder 2s infinite alternate, glisteningEffect 3s infinite;
 }
 
-.owa-powers-btn .bx.bx-power-off {
+/* .owa-powers-btn .bx.bx-power-off {
     font-size: 30px;
     font-weight: 100;
     color: rgb(123, 233, 233); 
 
-}
+} */
 
 
 /* chat area */

@@ -558,10 +558,6 @@ footer#author {
     }
 }
 @media only screen and (min-width: 440px) and (max-width: 499px){
-
-    .bot-message{
-        width: 40%;
-    }
     .chat-container {
         display: flex;
         flex-direction: column;
